@@ -22,34 +22,42 @@ class stepAddStaff:
 
     def inputName(self, name):
         print("[+] Input name", name, sep=": ")
+        self.get_txtName().clear()
         self.get_txtName().send_keys(name)
 
     def inputPhone(self, phone):
         print("[+] Input phone", phone, sep=": ")
+        self.get_txtPhone().clear()
         self.get_txtPhone().send_keys(phone)
 
     def inputEmail(self, email):
         print("[+] Input email", email, sep=": ")
+        self.get_txtEmail().clear()
         self.get_txtEmail().send_keys(email)
 
     def inputAddress(self, address):
         print("[+] Input address", address, sep=": ")
+        self.get_txtAddress().clear()
         self.get_txtAddress().send_keys(address)
 
     def inputPosition(self, position):
         print("[+] Input position", position, sep=": ")
+        self.get_txtPosition().clear()
         self.get_txtPosition().send_keys(position)
 
     def inputUsername(self, username):
         print("[+] Input username", username, sep=": ")
+        self.get_txtUsername().clear()
         self.get_txtUsername().send_keys(username)
 
     def inputPassword(self, password):
         print("[+] Input password", password, sep=": ")
+        self.get_txtPassword().clear()
         self.get_txtPassword().send_keys(password)
 
     def inputWorkStartTime(self, work_start_time):
         print("[+] Input work start time", work_start_time, sep=": ")
+        self.get_txtWorkStartTime().clear()
         self.get_txtWorkStartTime().send_keys(work_start_time)
 
     def clickAdd(self):
