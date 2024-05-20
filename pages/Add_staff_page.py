@@ -36,3 +36,35 @@ def btn_add():
 
 def msg_result():
     return "Toastify"
+
+
+def validation_name():
+    return "validation-hoten"
+
+
+def validation_phone():
+    return "validation-sdt"
+
+
+def validation_email():
+    return "validation-email"
+
+
+def validation_address():
+    return "validation-diachi"
+
+
+def validation_position():
+    return "validation-chucvu"
+
+
+def validation_username():
+    return "validation-username"
+
+
+def validation_password():
+    return "validation-password"
+
+
+def validation_work_start_time():
+    return "validation-date"
