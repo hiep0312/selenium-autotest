@@ -26,6 +26,7 @@ class stepAddStaff:
         self.get_txtName().send_keys(name)
 
     def inputPhone(self, phone):
+        phone = phone[1:]
         print("[+] Input phone", phone, sep=": ")
         self.get_txtPhone().clear()
         self.get_txtPhone().send_keys(phone)
